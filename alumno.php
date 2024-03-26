@@ -35,6 +35,6 @@
         <a href="https://www.linkedin.com/in/florin-cornea-b5118057/" target="_blank">
           <i class="fa fa-linkedin"></i>
         </a>
-      </div>
+      </div> 
 </body>
 </html>
