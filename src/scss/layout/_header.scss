@@ -3,7 +3,6 @@
 
 .header {
     background-color: v.$verde;
-
     @include m.tablet {
         &.fijo {
             left: 0;
