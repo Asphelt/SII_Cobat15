@@ -3,40 +3,49 @@
 ?> 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cobat 15</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="build/css/app.css">
+    <title>Document</title>
 </head>
-<body class="fondo_alumno">
-<main class="index-area">
+
+<body class="aspirante">
+    <main class="index-area">
         <div class="index-container">
             <div class="index-hero">
                 <h1 class="hero-header"><span>Cobat 15</span> </h1>
                 <div class="hero-img" id="lottie-animation"></div>
-                <div clas="hero-footer">Se parte de la experiencia Cobat.</div>
+                <div clas="hero-footer">Forma parte de la experiencia Cobat.</div>
             </div>
             <div class="index-login">
-                <div class="login-header">Bienvenido  </div>
+                <div class="login-header">Comienza tu proceso de Aspirante</div>
                 <div class="login-logo">
                     <img src="build/img/assets/LogoIEST.png" alt="">
                 </div>
                 <form class="login-form" onsubmit="modalLoading_login(event)">
                     <div class="formLogin-campo">
-                        <label for="username"> <i class="fa-solid fa-right-to-bracket"></i> Usuario </label>
+                        <label for="username"> <i class="fa-solid fa-right-to-bracket"></i> Nombre completo </label>
                         <input id="username"type="text" required>
+                    </div>
+                    <div class="formLogin-campo">
+                        <label for="middlename"> <i class="fa-solid fa-right-to-bracket"></i> Apellido </label>
+                        <input id="middlename"type="text" required>
                     </div>
                     <div class="formLogin-campo">
                         <label for="password"><i class="fa-solid fa-lock"></i> Contraseña</label>
                         <input id="password"type="password" required>
                     </div>
-                    <button class="btn btn_primary">Iniciar Sesión <i class="fa-solid fa-right-to-bracket"></i></button>
+                    <div class="formLogin-campo">
+                        <label for="password"><i class="fa-solid fa-lock"></i> Confirmar Contraseña</label>
+                        <input id="password"type="password" required>
+                    </div>
+                    <div class="formLogin-campo">
+                        <label for="e-mail"><i class="fa-solid fa-lock"></i> Correo</label>
+                        <input id="e-mail"type="e-mail" required>
+                    </div>
+                    <button class="btn btn_primary">Registrarme <i class="fa-solid fa-right-to-bracket"></i></button>
                 </form>
                 <div class="formLogin-footer">
                     <img src="build/img/assets/LogoOpenLab.png" alt="">
@@ -46,10 +55,7 @@
         </div>
     </main>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="build/js/login.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js'></script>
-
 <script>
     var animation = bodymovin.loadAnimation({
         container: document.getElementById('lottie-animation'), // ID del contenedor

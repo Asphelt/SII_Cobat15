@@ -20,7 +20,7 @@
             <nav class="navegacion-principal">
                 <a  href="#Avisos">Avisos</a>
                 <a href="#galeria">Galería</a>
-                <a href="#">Inscripción</a>
+                <a href="aspirante.php">Inscripción</a>
                 <a href="login.php">Login</a>
             </nav>
         </div>
