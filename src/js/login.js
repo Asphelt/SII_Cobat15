@@ -37,7 +37,7 @@ async function login() {
           popup: 'swal',
         },
         didClose:() =>{
-            windows.location.href="http://localhost/api.php?key=2"
+            window.location.href="http://localhost/api.php?key=2"
         }
       })
     } else {

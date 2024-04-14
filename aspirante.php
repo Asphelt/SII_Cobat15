@@ -24,14 +24,18 @@
                 <div class="login-logo">
                     <img src="build/img/assets/LogoIEST.png" alt="">
                 </div>
-                <form class="login-form" onsubmit="modalLoading_login(event)">
+                <form class="login-form" onsubmit="modalLoading_aspirante(event)">
                     <div class="formLogin-campo">
                         <label for="username"> <i class="fa-solid fa-right-to-bracket"></i> Nombre completo </label>
                         <input id="username"type="text" required>
                     </div>
                     <div class="formLogin-campo">
-                        <label for="middlename"> <i class="fa-solid fa-right-to-bracket"></i> Apellido </label>
+                        <label for="middlename"> <i class="fa-solid fa-right-to-bracket"></i> Apellido Paterno </label>
                         <input id="middlename"type="text" required>
+                    </div>
+                    <div class="formLogin-campo">
+                        <label for="middlename"> <i class="fa-solid fa-right-to-bracket"></i> Apellido Materno </label>
+                        <input id="lastname"type="text" required>
                     </div>
                     <div class="formLogin-campo">
                         <label for="password"><i class="fa-solid fa-lock"></i> Contraseña</label>
@@ -55,6 +59,8 @@
         </div>
     </main>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="build/js/aspirante.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js'></script>
 <script>
     var animation = bodymovin.loadAnimation({

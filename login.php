@@ -30,7 +30,7 @@
                 <form class="login-form" onsubmit="modalLoading_login(event)">
                     <div class="formLogin-campo">
                         <label for="username"> <i class="fa-solid fa-right-to-bracket"></i> Usuario </label>
-                        <input id="username"type="text" required>
+                        <input id="username"type="email" required>
                     </div>
                     <div class="formLogin-campo">
                         <label for="password"><i class="fa-solid fa-lock"></i> Contraseña</label>
