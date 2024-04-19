@@ -29,7 +29,7 @@
                 </div>
                 <form class="login-form" onsubmit="modalLoading_login(event)">
                     <div class="formLogin-campo">
-                        <label for="username"> <i class="fa-solid fa-right-to-bracket"></i> Usuario </label>
+                        <label for="username"> <i class="fa-solid fa-right-to-bracket"></i> Correo </label>
                         <input id="username"type="email" required>
                     </div>
                     <div class="formLogin-campo">
